@@ -1,0 +1,25 @@
+{
+  "name": "aether-vanguard",
+  "private": true,
+  "version": "0.3.0",
+  "description": "源能斗士 AETHER VANGUARD — Phaser 4 像素 2.5D 重制版",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "package": "npm run build && node tools/package.mjs"
+  },
+  "dependencies": {
+    "phaser": "4.2.1"
+  },
+  "devDependencies": {
+    "playwright-core": "1.65.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  }
+}
